@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" thread-count="5" parallel="classes">
+
+	<test name="BasicHomeFlow">
+		<parameter name="inputDataIndex" value="2" />		<!-- Input Data Index from Excel Sheet -->
+		<classes>
+			<class name="com.DECL.Individual.testScripts.BasicHome"></class>
+			
+		</classes>
+	</test>
+</suite>

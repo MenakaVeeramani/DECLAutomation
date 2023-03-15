@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="inputDataIndex" value="2"/>
+  <test parallel="classes" name="BasicHomeFlow(failed)">
+    <parameter name="inputDataIndex" value="2"/>
+    <classes>
+      <class name="com.DECL.Individual.testScripts.BasicHome">
+        <methods>
+          <include name="tearDown"/>
+          <include name="generateExtentReport"/>
+          <include name="setup"/>
+          <include name="basicFlow" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.DECL.Individual.testScripts.BasicHome -->
+    </classes>
+  </test> <!-- BasicHomeFlow(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
